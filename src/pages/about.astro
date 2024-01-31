@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 const pageTitle = "About me";
 
 const identity = {
@@ -29,9 +31,7 @@ const textCase = "uppercase";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Header />
     <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
     <p>
@@ -74,6 +74,7 @@ const textCase = "uppercase";
         <p>My goal is not 3 days.</p>
       )
     }
+    <Footer />
   </body>
 </html>
 <style define:vars={{ skillColor, fontWeight, textCase }}>
