@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: "People in Mexico do not move at all"
 pubDate: 2022-07-01
 description: "This is the first post of my new Astro blog."
